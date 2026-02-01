@@ -42,7 +42,7 @@ pane.addBinding(material, "clearcoat", {
 });
 
 // initialize the mesh
-const mesh = new THREE.Mesh(geometry, material);
+const mesh = new THREE.Mesh(geometry, material);x
 
 const mesh2 = new THREE.Mesh(torusKnotGeometry, material);
 mesh2.position.x = 1.5;
